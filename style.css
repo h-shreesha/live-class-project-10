@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:wght@300&family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .4)), url('./images/sofabg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'poppins';
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 150px;
+}
+
+.list{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 4rem;
+    border-bottom: 4px solid #8d8888;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list :hover{
+    color: #000;
+}
+.list-item :last-child{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.left{
+    margin-top: 2rem;
+    /* color: #fff; */
+    margin-left: 2rem;
+}
+
+.left h1{
+    font-size: 4rem;
+}
+
+.left button{
+    padding: 1rem 3rem;
+    background: none;
+    border-radius: 30px ;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.right{
+    position: relative;
+}
+
+.right-card1{
+    background-color: #5a5858;
+    position: absolute;
+    padding: 1rem;
+    right: -30rem;
+}
+
+.right-card2{
+    background-color: #5a5858;
+    position: absolute;
+    padding: 1rem;
+    bottom: -2rem;
+    width: 200px;
+}
+
+.icon-card i{
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+.circle-line{
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: #FFFFFF;
+    right: -30rem;
+    top: 145px;
+    left: 400px;
+}
+
+.circle-line1{
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: #FFFFFF;
+    bottom: -2rem;
+    right: -268px;
+    top: 300px;
+    transform: rotate(-90deg);
+}
+
+.circle {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    bottom: 0;
+    left: -10px;
+}
+
+
+
