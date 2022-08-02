@@ -2,6 +2,11 @@
 
 By Shreesha
 
+Here's the Live Deployed Website of ![Project10Badge](https://img.shields.io/badge/Project-10-orange)
+
+## Project 10  [DEPLOYED LINK](https://project10-interior-design-landing-pg.netlify.app/)
+
+
 ![websiteSnap](./readmeImages/websiteSnap.png)
 
 # What did I learn in this project
